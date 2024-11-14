@@ -23,7 +23,7 @@ function App() {
   const [snackbarMessage, setSnackbarMessage] = useState("");
   const [checked, setChecked] = useState({});
   const inputRef = useRef(null);
-
+console.log("hello")
   const addTask = () => {
     if (newTask.trim()) {
       setTasks([...tasks, newTask]);
